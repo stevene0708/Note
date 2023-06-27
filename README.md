@@ -3,6 +3,9 @@
 希望每天可以寫一點...<br/>
 
 # TBD
+### 虛擬機
+- [virtual box](virtualbox\README.md) 
+- esxi
 ### 工具
 - vim + cscope + ctags
 - docker
