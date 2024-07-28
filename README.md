@@ -5,9 +5,11 @@
 # TBD
 ### 虛擬機
 - [virtual box](virtualbox/README.md) 
+### 虛擬機平台
+- [proxmox](proxmox/README.md)
 - esxi
 ### 工具
-- vim + cscope + ctags
+- [vim](Vim/README.md)
 - docker
 - vscode
 ### 語言
