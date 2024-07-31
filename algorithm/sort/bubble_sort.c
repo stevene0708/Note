@@ -6,9 +6,9 @@ int main() {
     int numsSize = 6;
 
     int temp=0;
-
+    
     for(int i=0; i<numsSize-1; i++) {
-        for(int j=0; j<numsSize-i-1; j++){
+        for(int j=0; j<numsSize-i-1; j++){    // -i的原因是因為已經排好了不用在檢查
             if(nums[j] > nums[j+1]) {
                 temp = nums[j];
                 nums[j] = nums[j+1];

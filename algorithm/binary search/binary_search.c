@@ -20,8 +20,8 @@ int binary_search(int *num, int numsize, int target) {
 }
 
 int main() {
-
-    int num_array[5] = {2, 3, 4 ,1 ,6};
+    //binary_search 只對排序過的有效
+    int num_array[5] = {1, 2, 3, 4, 6};
     int index = 0;
 
     index = binary_search(num_array, 5, 3);
